@@ -1,5 +1,4 @@
 package comunicacion;
-import java.util.ArrayList;
 public class Tesis extends Escrito{
   String idea;
   static String[] argumentos=new String[2];
@@ -53,6 +52,12 @@ public class Tesis extends Escrito{
 		r += this.getAutor() + "\n";
 		r += this.getPaginas()+ "\n";
     r +=this.idea+ "\n";
+    int c=0;
+    for (String a:argumentos){
+      c+=1;
+      
+    }
+    r+= c+"\n";
     r+=this.conclusion+ "\n";
     r+=this.referencias;
     return r;
