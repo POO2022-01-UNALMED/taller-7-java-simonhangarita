@@ -1,6 +1,6 @@
 package comunicacion;
 public class Alfabeto extends Pictograma{
-  static String[] letras;
+  static String[] letras=new String[2];
   String interpretacion;
   public Alfabeto(String origen,String[] letras,String interpretacion){
     super(origen);
