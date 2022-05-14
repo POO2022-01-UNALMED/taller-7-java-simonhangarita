@@ -2,9 +2,9 @@ package comunicacion;
 public class Fabula extends Escrito{
   String ensenanza;
   String interpretacion;
-  public Fabula(String origen, String titulo, String autor, int paginas,String enseñanza,String interpretacion){
+  public Fabula(String origen, String titulo, String autor, int paginas,String ensenanza,String interpretacion){
     super(origen,titulo,autor,paginas);
-    this.ensenanza= enseñanza;
+    this.ensenanza= ensenanza;
     this.interpretacion=interpretacion;
   }
   public void setInterpretacion(String idea){
