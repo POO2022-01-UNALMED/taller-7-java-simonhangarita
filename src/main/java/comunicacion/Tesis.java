@@ -2,7 +2,7 @@ package comunicacion;
 import java.util.ArrayList;
 public class Tesis extends Escrito{
   String idea;
-  static String[] argumentos;
+  static String[] argumentos=new String[2];
   String conclusion;
   String referencias;
   String interpretacion;
