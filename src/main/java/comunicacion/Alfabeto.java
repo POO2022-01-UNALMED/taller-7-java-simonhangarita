@@ -32,7 +32,10 @@ public class Alfabeto extends Pictograma{
   public String toString(){
     String r= "";
     for (String l:letras){
-      r+=l+", ";
+      if (l!=letras[-1]){
+        r+=l+", ";
+      }
+      r+=l;
     }
     return r;
   }
