@@ -58,6 +58,6 @@ public class Tesis extends Escrito{
     return r;
   }
   public int palabrasTotales(int palabrasPagina){
-    return (5*palabrasPagina);
+    return (5*palabrasPagina*getPaginas());
   }
 }
